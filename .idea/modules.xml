@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ta_automation.iml" filepath="$PROJECT_DIR$/.idea/ta_automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ahamove-ta-platform-integration.iml" filepath="$PROJECT_DIR$/.idea/ahamove-ta-platform-integration.iml" />
     </modules>
   </component>
 </project>
