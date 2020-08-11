@@ -24,7 +24,7 @@ class EmailParser:
         elif source == 'resumes@mail.careerbuilder.vn':
             updated_data = self.parse_careerbuilder(data)
         else:
-            updated_data = self.parse_personal()
+            updated_data = self.parse_personal(data)
 
         return updated_data
 
@@ -86,7 +86,6 @@ class EmailParser:
         data['code'] = self.find_code(body)
 
         return data
-
 
     @staticmethod
     def find_code(text):
